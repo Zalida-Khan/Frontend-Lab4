@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  margin-left: 10px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.task:nth-child(1) {
+  background-color: #f8d8d9;
+}
+
+.task:nth-child(2) {
+  background-color: #d8f8d8;
+}
+
+.task:nth-child(3) {
+  background-color: #d9d8f8;
+}
+
+.task:nth-child(4) {
+  background-color: #f8e1d8;
+}
+
+.task h3 {
+  margin: 0;
+  flex-grow: 1;
+  text-decoration: none;
+}
+
+.task.completed h3 {
+  text-decoration: line-through;
+}
