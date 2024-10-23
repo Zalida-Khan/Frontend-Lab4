@@ -52,11 +52,11 @@ h1 {
 }
 
 .task:nth-child(6n+1) {
-  background-color: #ffe5db;
+  background-color: #f7d5dc;
 }
 
 .task:nth-child(6n+2) {
-  background-color: #feeef5;
+  background-color: #e0edf4;
 }
 
 .task:nth-child(6n+3) {
@@ -64,7 +64,7 @@ h1 {
 }
 
 .task:nth-child(6n+4) {
-  background-color: #e0edf4;
+  background-color: #ffe5db;
 }
 
 .task:nth-child(6n+5) {
@@ -72,8 +72,8 @@ h1 {
 }
 
 .task:nth-child(6n) {
-  background-color: #fbfbef;
-} 
+  background-color: #ef;
+}
 
 .task h3 {
   margin: 0;

@@ -52,28 +52,28 @@ h1 {
 }
 
 .task:nth-child(6n+1) {
-  background-color: #ffe5db;
+  background-color: #fed9da;
 }
 
 .task:nth-child(6n+2) {
-  background-color: #feeef5;
+  background-color: #def8e2;
 }
 
 .task:nth-child(6n+3) {
-  background-color: #e9e5f3;
+  background-color: #f7e3fa;
 }
 
 .task:nth-child(6n+4) {
-  background-color: #e0edf4;
+  background-color: #ffe5db;
 }
 
 .task:nth-child(6n+5) {
-  background-color: #f0f8e6;
+  background-color: #fafcd4;
 }
 
 .task:nth-child(6n) {
-  background-color: #fbfbef;
-} 
+  background-color: #dde0fa;
+}
 
 .task h3 {
   margin: 0;
@@ -83,7 +83,7 @@ h1 {
 }
 
 .task.completed h3 {
-  text-decoration: line-through 2px solid;
+  text-decoration: line-through;
 }
 
 .checkmark {
@@ -93,23 +93,16 @@ h1 {
   border-radius: 50%;
   border: 2px solid #aba7a7;
   background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   margin-right: 10px;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 .checkmark:checked {
-  background-color: #c6eada;
-  border: 2px solid #198754;
-}
+  content: '✔'; 
+  color: #000000;
 
-.checkmark:checked::after {
-  content: '✔️';
-  color: #3d3d3d;
 }
-
 
 .delete-btn {
   padding: 10px 12px;

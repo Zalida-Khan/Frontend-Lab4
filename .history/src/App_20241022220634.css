@@ -52,11 +52,11 @@ h1 {
 }
 
 .task:nth-child(6n+1) {
-  background-color: #ffe5db;
+  background-color: #f3f3f3;
 }
 
 .task:nth-child(6n+2) {
-  background-color: #feeef5;
+  background-color: #e0edf4;
 }
 
 .task:nth-child(6n+3) {
@@ -64,16 +64,16 @@ h1 {
 }
 
 .task:nth-child(6n+4) {
-  background-color: #e0edf4;
+  background-color: #fbfb;
 }
 
 .task:nth-child(6n+5) {
-  background-color: #f0f8e6;
+  background-color: #fafcd4;
 }
 
 .task:nth-child(6n) {
-  background-color: #fbfbef;
-} 
+  background-color: #dde0fa;
+}
 
 .task h3 {
   margin: 0;

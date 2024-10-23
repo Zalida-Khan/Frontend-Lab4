@@ -71,10 +71,6 @@ h1 {
   background-color: #f0f8e6;
 }
 
-.task:nth-child(6n) {
-  background-color: #fbfbef;
-} 
-
 .task h3 {
   margin: 0;
   flex-grow: 1;

@@ -51,6 +51,10 @@ h1 {
   font-family: "Niramit", sans-serif;
 }
 
+.task:nth-child(6n) {
+  background-color: #fbfbef;
+} 
+
 .task:nth-child(6n+1) {
   background-color: #ffe5db;
 }
@@ -70,10 +74,6 @@ h1 {
 .task:nth-child(6n+5) {
   background-color: #f0f8e6;
 }
-
-.task:nth-child(6n) {
-  background-color: #fbfbef;
-} 
 
 .task h3 {
   margin: 0;
