@@ -116,9 +116,6 @@ h1 {
   border-color: #d3d3d3;
 }
 
-.checkmark:disabled::after {
-  content: '';
-}
 
 .delete-btn {
   padding: 10px 12px;
