@@ -73,7 +73,7 @@ h1 {
 
 .task:nth-child(6n) {
   background-color: #fbfbef;
-}
+} 
 
 .task h3 {
   margin: 0;
@@ -114,10 +114,6 @@ h1 {
   cursor: not-allowed;
   background-color: #d3d3d3;
   border-color: #d3d3d3;
-}
-
-.checkmark:disabled::after {
-  content: '';
 }
 
 .delete-btn {
@@ -178,20 +174,21 @@ h1 {
 
 .filter-buttons button {
   padding: 15px 35px;
-  border: 1px solid #1670ad;
+  border: 1px solid #b7b7b7;
   border-radius: 10px;
-  background-color: #3fa1c8;
+  background-color: #d8e3e7;
   font-family: "Niramit", sans-serif;
   cursor: pointer;
+  color: #000000;
   transition: background-color 0.3s, color 0.3s;
   margin: 5px;
 }
 
 .filter-buttons button:hover {
-  background-color: #1670ad;
+  background-color: #9799b5;
 }
 
 .filter-buttons .active {
-  background-color: #051d6f;
+  background-color: #01543e;
   color: white;
 }

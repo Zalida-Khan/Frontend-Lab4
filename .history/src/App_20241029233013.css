@@ -73,7 +73,7 @@ h1 {
 
 .task:nth-child(6n) {
   background-color: #fbfbef;
-}
+} 
 
 .task h3 {
   margin: 0;
@@ -178,7 +178,7 @@ h1 {
 
 .filter-buttons button {
   padding: 15px 35px;
-  border: 1px solid #1670ad;
+  border: 1px solid #014878;
   border-radius: 10px;
   background-color: #3fa1c8;
   font-family: "Niramit", sans-serif;
@@ -195,3 +195,4 @@ h1 {
   background-color: #051d6f;
   color: white;
 }
+

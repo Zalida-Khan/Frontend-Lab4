@@ -51,13 +51,12 @@ function App() {
         {remainingTasks === 1 ? "task" : "tasks"} remaining
       </h2>
       <div className="task-list">
-      {filteredTasks.map((task) => (
+        {tasks.map((task) => (
           <Task
             key={task.id}
             task={task}
             toggleTask={toggleTask}
             removeTask={removeTask}
-            isDisabled={task.completed}
           />
         ))}
       </div>

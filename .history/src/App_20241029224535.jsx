@@ -25,14 +25,7 @@ function App() {
 
   const removeTask = (id) => setTasks(tasks.filter((task) => task.id !== id));
 
-  const handleFilterChange = (newFilter) => setFilter(newFilter);
-
-  const filteredTasks = tasks.filter((task) => {
-    if (filter === "Completed") return task.completed;
-    if (filter === "Pending") return !task.completed;
-    return true;
-  }); 
-
+  
   const remainingTasks = tasks.filter((task) => !task.completed).length;
 
   return (
@@ -41,23 +34,17 @@ function App() {
         <h1>Daily Planner</h1>
       </header>
       <TaskForm addTask={addTask} />
-      <div className="filter-buttons">
-        <button onClick={() => handleFilterChange("All")}>All</button>
-        <button onClick={() => handleFilterChange("Pending")}>Pending</button>
-        <button onClick={() => handleFilterChange("Completed")}>Completed</button>
-      </div>
       <h2>
         You have {remainingTasks}{" "}
         {remainingTasks === 1 ? "task" : "tasks"} remaining
       </h2>
       <div className="task-list">
-      {filteredTasks.map((task) => (
+        {tasks.map((task) => (
           <Task
             key={task.id}
             task={task}
             toggleTask={toggleTask}
             removeTask={removeTask}
-            isDisabled={task.completed}
           />
         ))}
       </div>

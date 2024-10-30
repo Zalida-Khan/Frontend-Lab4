@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1> </h1>
+        <h1>Daily Planner</h1>
       </header>
       <TaskForm addTask={addTask} />
       <h2>
